@@ -43,6 +43,7 @@ function Header() {
           <form
             action=""
             className="flex flex-1 md:flex-initial items-center space-x-5 bg-white rounded-md p-2 shadow-md"
+            onSubmit={(e) => e.preventDefault()}
           >
             <MagnifyingGlassIcon className="h-6 w-6 text-gray-400" />
             {/* TODO debounce for search */}
